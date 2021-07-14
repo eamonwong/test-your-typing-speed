@@ -68,7 +68,7 @@ screen_height = root.winfo_screenheight()
 x_cordinate = int((screen_width/2) - (800/2))
 y_cordinate = int((screen_height/2) - (500/2))
 root.geometry(f"800x500+{x_cordinate}+{y_cordinate}")
-root.title("Typing speed test.")
+root.title("Test your Typing Speed.")
 root.configure(bg=label_bg)
 
 label = Label(root, text=" ".join(words), **label_configs)
